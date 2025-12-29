@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# qwerty local backups
+app/apps/qwerty/_bak/
+app/apps/qwerty/*.bak.*

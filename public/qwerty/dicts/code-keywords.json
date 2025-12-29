@@ -1,0 +1,22 @@
+{
+  "id": "code-keywords",
+  "title": "Coding · Keywords",
+  "lang": "code",
+  "chapters": [
+    {
+      "title": "TypeScript",
+      "words": [
+        { "word": "interface", "meaning": "接口" },
+        { "word": "readonly", "meaning": "只读" },
+        { "word": "unknown", "meaning": "未知类型" }
+      ]
+    },
+    {
+      "title": "Git",
+      "words": [
+        { "word": "rebase", "meaning": "变基" },
+        { "word": "cherry-pick", "meaning": "拣选提交" }
+      ]
+    }
+  ]
+}

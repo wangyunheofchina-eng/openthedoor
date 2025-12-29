@@ -1,0 +1,24 @@
+{
+  "id": "en-basic",
+  "title": "English · Basic",
+  "lang": "en",
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "words": [
+        { "word": "melatonin", "meaning": "褪黑素", "phonetic": "/ˌmeləˈtəʊnɪn/" },
+        { "word": "cancel", "meaning": "取消", "phonetic": "/ˈkænsl/" },
+        { "word": "achieve", "meaning": "实现；达到", "phonetic": "/əˈtʃiːv/" },
+        { "word": "feature", "meaning": "特性；功能", "phonetic": "/ˈfiːtʃə(r)/" }
+      ]
+    },
+    {
+      "title": "Chapter 2",
+      "words": [
+        { "word": "compile", "meaning": "编译", "phonetic": "/kəmˈpaɪl/" },
+        { "word": "iterate", "meaning": "迭代", "phonetic": "/ˈɪtəreɪt/" },
+        { "word": "optimize", "meaning": "优化", "phonetic": "/ˈɒptɪmaɪz/" }
+      ]
+    }
+  ]
+}

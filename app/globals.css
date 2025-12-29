@@ -32,3 +32,36 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
     "PingFang SC", "Helvetica Neue", Arial, sans-serif;
 }
+
+/* ===== Qwerty Theme Variables (global) ===== */
+:root{
+  --q-bg:#0b0b0c;
+  --q-panel:rgba(24,24,26,.72);
+  --q-panel2:rgba(24,24,26,.58);
+  --q-text:rgba(255,255,255,.92);
+  --q-sub:rgba(255,255,255,.62);
+  --q-muted:rgba(255,255,255,.42);
+  --q-border:rgba(255,255,255,.10);
+  --q-border2:rgba(255,255,255,.14);
+  --q-shadow: 0 18px 40px rgba(0,0,0,.45);
+  --q-shadow2: 0 10px 26px rgba(0,0,0,.35);
+  --q-accent: rgba(120,170,255,.9);
+  --q-danger: rgba(255,90,90,.9);
+  --q-ok: rgba(220,220,220,.92);
+}
+
+[data-theme="light"]{
+  --q-bg:#f6f6f7;
+  --q-panel:rgba(255,255,255,.78);
+  --q-panel2:rgba(255,255,255,.62);
+  --q-text:rgba(10,10,12,.92);
+  --q-sub:rgba(10,10,12,.62);
+  --q-muted:rgba(10,10,12,.42);
+  --q-border:rgba(0,0,0,.10);
+  --q-border2:rgba(0,0,0,.14);
+  --q-shadow: 0 18px 40px rgba(0,0,0,.10);
+  --q-shadow2: 0 10px 26px rgba(0,0,0,.08);
+  --q-accent: rgba(40,110,255,.9);
+  --q-danger: rgba(220,40,40,.9);
+  --q-ok: rgba(20,20,22,.92);
+}
