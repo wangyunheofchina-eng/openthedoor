@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "dicts": [
+    {
+      "id": "en-basic",
+      "title": "English · Basic",
+      "lang": "en",
+      "file": "/qwerty/dicts/en-basic.json"
+    },
+    {
+      "id": "ja-basic",
+      "title": "日本語 · 基礎",
+      "lang": "ja",
+      "file": "/qwerty/dicts/ja-basic.json"
+    },
+    {
+      "id": "de-basic",
+      "title": "Deutsch · Grund",
+      "lang": "de",
+      "file": "/qwerty/dicts/de-basic.json"
+    },
+    {
+      "id": "code-keywords",
+      "title": "Coding · Keywords",
+      "lang": "code",
+      "file": "/qwerty/dicts/code-keywords.json"
+    },
+    {
+      "id": "en-sentences",
+      "title": "English · Sentences",
+      "lang": "en",
+      "kind": "sentence",
+      "file": "/qwerty/dicts/en-sentences.json"
+    }
+  ]
+}

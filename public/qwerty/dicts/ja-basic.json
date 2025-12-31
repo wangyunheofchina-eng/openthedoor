@@ -1,0 +1,22 @@
+{
+  "id": "ja-basic",
+  "title": "日本語 · 基礎",
+  "lang": "ja",
+  "chapters": [
+    {
+      "title": "ひらがな",
+      "words": [
+        { "word": "あいうえお", "meaning": "元音行" },
+        { "word": "かきくけこ", "meaning": "K 行" },
+        { "word": "さしすせそ", "meaning": "S 行" }
+      ]
+    },
+    {
+      "title": "常用单词",
+      "words": [
+        { "word": "ありがとう", "meaning": "谢谢" },
+        { "word": "おはよう", "meaning": "早上好" }
+      ]
+    }
+  ]
+}

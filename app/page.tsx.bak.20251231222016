@@ -1,0 +1,83 @@
+import LogoOpenTheDoor from "../components/LogoOpenTheDoor";
+
+const tools = [
+  { id: "language", title: "Language", desc: "Words • Dictation • Review", tag: "Build" },
+  { id: "notes", title: "Notes", desc: "Fast capture and structure", tag: "Soon" },
+  { id: "timer", title: "Timer", desc: "Focus sessions with history", tag: "Soon" },
+  { id: "converter", title: "Converter", desc: "Units, currencies, formats", tag: "Soon" },
+  { id: "calculator", title: "Calculator", desc: "Clean, accurate, quick", tag: "Soon" },
+  { id: "planner", title: "Planner", desc: "Tasks & simple routines", tag: "Soon" },
+];
+
+export default function Home() {
+  return (
+    <main className="linearHome">
+      <div className="lhBg" aria-hidden />
+      <header className="lhHeader">
+        <div className="lhBrand">
+          <LogoOpenTheDoor size={40} showText={false} />
+          <span className="lhBrandText">OPENTHEDOOR</span>
+        </div>
+        <div className="lhHeaderRight">
+          <span className="lhPill">Digital tools, one station</span>
+        </div>
+      </header>
+
+      <section className="lhHero">
+        <div className="lhHeroLeft">
+          <h1 className="lhTitle">尽有，将有</h1>
+          <div className="lhSlogan">ALL THAT IS. ALL TO COME.</div>
+
+          <div className="lhSearchWrap">
+            <div className="lhSearchIcon" aria-hidden />
+            <input className="lhSearch" placeholder="Search tools…" aria-label="Search tools" />
+            <div className="lhKbd" aria-hidden>
+              <span className="lhKey">⌘</span>
+              <span className="lhKey">K</span>
+            </div>
+          </div>
+
+          <div className="lhSub">
+            A calm dashboard for your utilities. Minimal UI, maximum flow.
+          </div>
+        </div>
+
+        <div className="lhHeroRight">
+          <div className="lhPanel">
+            <div className="lhPanelTop">
+              <div className="lhDot" />
+              <div className="lhDot" />
+              <div className="lhDot" />
+              <div className="lhPanelTitle">Station</div>
+            </div>
+
+            <div className="lhGrid">
+              {tools.map((t) => (
+                <a key={t.id} className="lhCard" href={`/apps/${t.id}`}>
+                  <div className="lhCardTop">
+                    <div className="lhCardTitle">{t.title}</div>
+                    <div className={`lhTag ${t.tag === "Build" ? "isBuild" : ""}`}>{t.tag}</div>
+                  </div>
+                  <div className="lhCardDesc">{t.desc}</div>
+                  <div className="lhCardFoot">
+                    <span className="lhArrow">Open</span>
+                    <span className="lhChevron" aria-hidden>→</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            <div className="lhHint">
+              Tip: keep it simple. Ship tools one by one.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="lhFooter">
+        <div className="lhFooterLine" />
+        <div className="lhFooterText">© OPENTHEDOOR</div>
+      </footer>
+    </main>
+  );
+}

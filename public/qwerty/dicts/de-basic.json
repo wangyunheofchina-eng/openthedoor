@@ -1,0 +1,15 @@
+{
+  "id": "de-basic",
+  "title": "Deutsch · Grund",
+  "lang": "de",
+  "chapters": [
+    {
+      "title": "Basics",
+      "words": [
+        { "word": "Hallo", "meaning": "你好" },
+        { "word": "Danke", "meaning": "谢谢" },
+        { "word": "Bitte", "meaning": "请/不客气" }
+      ]
+    }
+  ]
+}
